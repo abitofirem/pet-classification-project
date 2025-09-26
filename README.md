@@ -85,7 +85,7 @@ Bu proje, Oxford-IIIT Pet veri seti üzerinde evcil hayvan türlerini sınıflan
 ### Kurulum
 ```bash
 pip install -r requirements.txt
-streamlit run UI/app.py
+jupyter notebook supervised/pet_classification_cnn.ipynb
 ```
 
 ## 📁 Proje Yapısı
@@ -96,8 +96,6 @@ pet-classification-project/
 ├── requirements.txt
 ├── supervised/
 │   └── pet_classification_cnn.ipynb
-├── UI/
-│   └── app.py
 └── models/
     └── (model files)
 ```
