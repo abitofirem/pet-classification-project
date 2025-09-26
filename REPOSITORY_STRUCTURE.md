@@ -8,14 +8,11 @@ Bu dosya, oluşturulan repository yapısını ve her dosyanın amacını açıkl
 pet-classification-project/
 ├── 📄 README.md                           # Ana proje dokümantasyonu
 ├── 📄 requirements.txt                   # Python bağımlılıkları
-├── 📄 DEPLOYMENT.md                      # Deployment rehberi
 ├── 📄 REPOSITORY_STRUCTURE.md            # Bu dosya
 ├── 📁 supervised/                        # Supervised learning notebookları
 │   └── 📓 pet_classification_cnn.ipynb   # Ana CNN modeli notebook'u
-├── 📁 UI/                                # Web arayüzü
-│   └── 🐍 app.py                        # Streamlit web uygulaması
-└── 📁 models/                            # Eğitilmiş modeller
-    └── 🤖 best_pet_cnn_v1.keras          # En iyi model (gelecekte eklenecek)
+└── 📁 models/                              # Eğitilmiş modeller
+    └── (model files will be added here)
 ```
 
 ## 📋 Dosya Açıklamaları
@@ -60,15 +57,6 @@ pet-classification-project/
   - Değerlendirme
   - Optimizer karşılaştırması
 
-### 📁 UI/
-- **Amaç**: Web arayüzü
-- **İçerik**: Streamlit uygulaması
-- **Özellikler**:
-  - Görüntü yükleme
-  - Tahmin yapma
-  - Model analizi
-  - Proje bilgileri
-- **Kullanım**: `streamlit run UI/app.py`
 
 ### 📁 models/
 - **Amaç**: Eğitilmiş modelleri saklama
@@ -93,10 +81,6 @@ pip install -r requirements.txt
 jupyter notebook supervised/pet_classification_cnn.ipynb
 ```
 
-### 4. Web Uygulamasını Başlatın
-```bash
-streamlit run UI/app.py
-```
 
 ## 📊 Proje Özellikleri
 
